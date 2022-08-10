@@ -25,7 +25,8 @@ function renderMovies(data) {
 
 function renderAddBtn(data) {
     const movieIndex = storedMovies.findIndex(id => id === data.imdbID)
-    if(location.pathname === '/scrimba-watchlist-project/index.html') {
+    const url = '/elitistnoob.github.io/scrimba-watchlist-project/index.html'
+    if(location.pathname === url) {
         if(movieIndex === -1) {
             return `<p><span class="iconify" data-icon="ant-design:plus-circle-filled" style="color: white;" data-width="16"></span> Watchlist</p>`
         } else {
