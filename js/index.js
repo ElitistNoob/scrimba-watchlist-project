@@ -1,4 +1,4 @@
-import { renderMovies, renderError, renderListEmpty } from './html.js'
+import { renderMovies, renderError } from './html.js'
 
 const apiKey = '7e14276a'
 const filmList = document.getElementById('film-list')
