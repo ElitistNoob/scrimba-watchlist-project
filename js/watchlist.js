@@ -2,7 +2,7 @@ import { renderMovies, renderListEmpty } from './html.js'
 
 const apiKey = '7e14276a'
 const filmList = document.getElementById('film-list')
-const storedMovies = JSON.parse(localStorage.getItem('watchList'))
+const storedMovies = JSON.parse(localStorage.getItem('watchList')) || []
 
 const fetchMovie = async () => {
     filmList.innerHTML = ''
