@@ -1,4 +1,4 @@
-const storedMovies = JSON.parse(localStorage.getItem('watchList'))
+const storedMovies = JSON.parse(localStorage.getItem('watchList')) || []
 
 function renderMovies(data) {
     const { Poster, Title, imdbRating, Runtime, Genre, Plot, imdbID } = data
