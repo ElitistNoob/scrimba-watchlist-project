@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="container">
+            <header class="[ flex-box ]">
+                <h1 class="[ fw-800 ]">Find your film</h1>
+                <a href="watchlist.html" id="nav" class="[ fw-700 inactive ]">My watchlist</a>
+            </header>
+            <main>
+                <div class="form">
+                    <input id="search-box" class="[ fw-500 ]" type="text" placeholder="Search for a movie">
+                    <button id="submit-btn" class="[ fw-500 ]" type="submit">Search</button>
+                </div> 
+                <section id="film-list">
+                    <div class="[ placeholder ][ flex-box fw-700 ]">
+                        <span class="iconify" data-icon="mdi:movie-roll" style="color: #2e2e2f;" data-width="70"></span>
+                        <p class="page-placeholder">Start exploring</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="./js/index.js" type="module"></script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    </body>
+</html>
