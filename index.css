@@ -4,6 +4,9 @@ html, body {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     color: #fff;
     background-color: #1C1C1C;
@@ -77,9 +80,9 @@ button {
     background-color: #4B4B4B;
     border: none;
     color: #fff;
-    padding: 10px 2em;
+    padding: 11px 2em;
     border-radius: 0 6px 6px 0;
-    right: 5%;
+    right: 1em;
     cursor: pointer;
 }
 
@@ -119,8 +122,7 @@ header {
 
 .form {
     display: flex;
-    margin: -1em 0 0;
-    width: 90%;
+    margin: -2em 0 0;
     margin-inline: auto;
 }
 
@@ -146,7 +148,7 @@ input:focus {
 }
 
 main {
-  min-height: 100vh;  
+  padding: 1em;
 }
 
 .placeholder {
